@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-image: url("bulldog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.btn { 
+    background-color: #FF4850;
+    border-color: #FF4850;
+    padding: 10px;
+    border-radius: 15px;
+    color: white; 
+
+
+}
+img {
+    display:block;
+    width: 100%;
+}
+.menu ul{
+    display:flex;
+    flex-direction: column;
+    list-style-type: none;
+    word-spacing: 5px;
+
+}
+p{
+    color:#88898B;
+
+}
+a {
+    color:#88898B;
+    text-decoration: none;
+
+    
+}
+@media (min-width: 768px) {
+    .container {
+        width:auto;
+    }
+    .menu ul{
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+    .nav{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    }
+    .menu{
+        width:100%;
+    }
+    h1{
+        min-width:105px;
+    }
+}
